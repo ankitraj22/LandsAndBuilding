@@ -19,12 +19,13 @@ import com.landandbuilding.service.CandidateManager;
 
 @Controller
 public class CandidateController {
-
+	
 	@Autowired
 	private CandidateManager candidateManager;
 	
 	@RequestMapping(value = "index", method = RequestMethod.GET)
 	   public ModelAndView welcome() {
+		System.out.println("Test");
 		return new ModelAndView("index");
 	}
 	
