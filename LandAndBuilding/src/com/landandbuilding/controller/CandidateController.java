@@ -25,7 +25,7 @@ public class CandidateController {
 	
 	@RequestMapping(value = "index", method = RequestMethod.GET)
 	   public ModelAndView welcome() {
-		System.out.println("Test");
+		System.out.println("Test1");
 		return new ModelAndView("index");
 	}
 	
